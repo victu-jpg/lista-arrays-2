@@ -1,0 +1,16 @@
+const numeros = [];
+for (let i = 1;i <=5;i++) {
+    numeros.push(+prompt(`Digite um número`));}
+const busca = +prompt("Qual número você procura?");
+let encontrado = false;
+for (let i = 0;i < numeros.length; i++){
+    if (numeros[i] === busca){
+        encontrado = true; 
+        break;             
+    }
+}
+if (encontrado){
+    alert(`O número ${busca} foi encontrado`);
+}else{
+    alert(`O número ${busca} não foi encontrado`);
+}
