@@ -1,0 +1,15 @@
+const numeros=[]
+for(let i=1;i<=5; i++){
+    numeros.push(+prompt(`Digite um número`))}
+    const busca=+prompt(`Qual número você quer que conte?`)
+    let contador=0;
+for(let i=0; i<numeros.length; i++){
+    if (numeros[i]=== busca){
+contador++;
+    }
+}
+if (contador>0){
+    alert(`O número ${busca} aparece ${contador} vez(es) no vetor`)
+}else{
+    alert(`O número ${busca} não aparece nenhuma vez no vetor`)
+}
