@@ -1,0 +1,5 @@
+let v=[], c=true;
+for(let i=0;i<5;i++){
+  v[i]=+prompt("Número");
+  if(i>0 && v[i]<v[i-1]) c=false;}
+alert(c ? "Ordem crescente" : "Não está em ordem crescente");
