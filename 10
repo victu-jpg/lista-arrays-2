@@ -1,0 +1,5 @@
+let a=[], b=[], c=[];
+for(let i=0;i<5;i++) a[i]=+prompt("A");
+for(let i=0;i<5;i++) b[i]=+prompt("B");
+for(let i=0;i<5;i++) c.push(a[i],b[i]);
+alert(c);
